@@ -88,7 +88,7 @@ function toggleUserProfile() {
     var overviewTab = document.getElementById("overviewuserTab");
     overviewTab.style.display = "block";
     var dropdown = document.getElementById("dropdown");
-    dropdown.style.display = "none";
+    dropdown.style.display = "none !important";
     var clientProfileModal = document.getElementById("client-profile");
     var partcipantModal = document.getElementById("participant-modal");
     if(clientProfileModal.style.display === "block"){
