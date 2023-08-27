@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="">
-                            <i class="fa-solid fa-ellipsis-vertical text-[#9FB4FF] text-2xl"></i>
+                            <img src="icons/dots-vertical.svg" class="text-[#9FB4FF] text-2xl cursor-pointer" alt="dots-vertical" >
                         </div>
                     </div>
                     <div class="Search-container px-4">
@@ -126,8 +126,33 @@
                     </div>
                 </div>
             </div>
-            <div class="right-container relative p-4 flex flex-[78%] bg-blue-600">
-
+            <div class="right-container relative py-2 px-8 flex flex-col justify-between
+             flex-[78%]">
+                <!-- chat box container -->
+                <div class="right-container_top flex justify-between w-full h-fit py-[12px] px-[8px] border-b-[1px] border-blue-100">
+                    <div class="profile flex items-center justify-between">
+                        <div class="flex items-center">
+                            <img src="images/profile1.png" class="border-2 rounded-full border-blue-600 cursor-pointer"
+                                alt="profile" width="48px" height="48px" title="Profile">
+                            <div class="ml-3">
+                                <h3 class="font-body text-base font-semibold truncate w-40">Jean-Eude
+                                    Cokou</h3>
+                                <p class="font-body text-sm font-medium truncate w-52 text-[#000000]">Designation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-8">
+                        <img src="icons/phone.svg" class="text-[#9FB4FF] text-2xl cursor-pointer" alt="phone" title="Call">
+                        <img src="icons/video-camera.svg" class="text-[#9FB4FF] text-2xl cursor-pointer" alt="video" title="Video">
+                        <img src="icons/dots-vertical.svg" class="text-[#9FB4FF] text-2xl cursor-pointer" alt="dots-vertical" >
+                    </div>
+                </div>
+                <div class="right-container_middle"></div>
+                <div class="right-container_bottom">
+                    <div class="">
+                        <input type="text" placeholder="Enter your message">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
